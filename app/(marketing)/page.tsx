@@ -1,4 +1,5 @@
 import { Heading } from "./_components/Heading"
+import { Footer } from './_components/Footer'
 import { Heroes } from "./_components/Heroes"
 
 const MarketingPage = () => {
@@ -9,6 +10,8 @@ const MarketingPage = () => {
 
         <Heroes />
       </div>
+
+      <Footer />
     </div>
   )
 }
